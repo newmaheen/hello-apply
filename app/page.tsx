@@ -4,8 +4,8 @@ import { supabase } from '@/lib/supabase'
 import Link from 'next/link'
 
 export default function Home() {
-  const [visas, setVisas] = useState([])
-  const [posts, setPosts] = useState([])
+  const [visas, setVisas] = useState<any[]>([])
+  const [posts, setPosts] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
