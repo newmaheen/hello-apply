@@ -204,7 +204,7 @@ export default function Home() {
           {/* --- LIVE DIGITAL COUNTDOWN TIMER WIDGET --- */}
           <div className="max-w-xl mx-auto mb-10 bg-slate-900/80 border border-emerald-500/30 p-4 sm:p-5 rounded-2xl shadow-2xl backdrop-blur-md">
             <div className="text-xs sm:text-sm font-bold text-emerald-400 mb-3 uppercase tracking-wider">
-              ⏳ {lang === 'bn' ? 'পরবর্তী ভিসা স্লট বুকিংয়ের বাকি সময়:' : 'Next Visa Slot Closing In:'}
+              ⏳ {lang === 'bn' ? 'পরবর্তী ভিসা স্লট বুকিংয়ের বাকি সময়:' : 'Next Visa Slot Opening In:'}
             </div>
             <div className="grid grid-cols-4 gap-2 text-center">
               <div className="bg-slate-950 p-2 sm:p-3 rounded-xl border border-slate-800">
@@ -362,7 +362,7 @@ export default function Home() {
               {lang === 'bn' ? 'বিশেষ গ্যালারি ও আপডেট' : 'Special Gallery & Updates'}
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">
-              {lang === 'bn' ? 'আমাদের পোর্ট্রেইট পোস্ট ও ছবিসমূহ' : 'Our Portrait Posts & Photos'}
+              {lang === 'bn' ? 'নোটিস ও পোস্ট' : 'Notice & Posts'}
             </h2>
           </div>
         </div>
